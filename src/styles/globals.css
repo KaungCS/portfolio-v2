@@ -1,1 +1,18 @@
-/* Placeholder: Tailwind base setup, shared resets, and core root variables */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --cs-bg: #FFFFE9;
+  --cs-text: #323031;
+  --cs-ocean: #084C61;
+  --cs-teal: #177E89;
+  --cs-amber: #FFC857;
+}
+
+body {
+  background-color: var(--cs-bg);
+  color: var(--cs-text);
+  font-family: system-ui, -apple-system, sans-serif;
+  overflow-x: hidden;
+}

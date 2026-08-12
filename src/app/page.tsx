@@ -1,4 +1,5 @@
-// Placeholder: Root redirect
-export default function Page() {
-  return null;
+import { redirect } from 'next/navigation';
+
+export default function RootPage() {
+  redirect('/cs');
 }
